@@ -7,6 +7,9 @@
     "strict": true,
     "esModuleInterop": true
   },
-  "include": ["src"]
+  "include": ["src"],
+  "paths": {
+    "@data-structures": ["data-structures/index.ts"],
+    "@algorithms": ["algorithms/index.ts"]
+  }
 }
-  
